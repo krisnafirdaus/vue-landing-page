@@ -1,0 +1,28 @@
+{
+  "name": "vue-landing-page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "build:component": "vite build --config vite.config.component.js"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.4",
+    "autoprefixer": "^10.4.18",
+    "happy-dom": "^13.9.6",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^6.2.0",
+    "vitest": "^1.4.0"
+  }
+}
